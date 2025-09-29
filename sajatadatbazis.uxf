@@ -1,0 +1,20 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>170</x><y>120</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;KEREKPAROK&gt;&gt;
+--
+-ID: int
+--
+-MARKA: string
+--
+-TIPUS: string
+--
+-STATUS: string
+--
+-SZUKSEGES ALKATRESZEK: nullable, string
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>120</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;ALKATRESZ KESZLET&gt;&gt;
+--
+-ALKATRESZ.ID: String
+--
+--ALKATRESZ.KATEGORIA: String 
+--
+--ALKATRESZ.GYARTO: String
+--
+--ALKATRESZ.TIPUS</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>230</y><w>350</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;20;330;10</additional_attributes></element></diagram>
